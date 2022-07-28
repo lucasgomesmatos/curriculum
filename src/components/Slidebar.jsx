@@ -2,7 +2,7 @@ import React from 'react';
 import SocialNetworks from './SocialNetworks';
 import Avatar from '../img/eu.jpeg';
 import '../styles/components/sidebar.sass';
-import InformationContainer from './informationContainer';
+import InformationContainer from './InformationContainer';
 
 const Slidebar = () => {
   return (
