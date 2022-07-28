@@ -11,7 +11,7 @@ const Slidebar = () => {
       <p className="title">Desenvolvedor Full Stack</p>
       <SocialNetworks />
       <InformationContainer />
-      <a href="../../CV-Lucas-Gomes-Matos.pdf" className="btn">
+      <a href="../../cv.pdf" className="btn">
         Download Currículo
       </a>
     </aside>
