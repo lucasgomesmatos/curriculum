@@ -10,7 +10,12 @@ import {
 import '../styles/components/tecnologiescontainer.sass';
 
 const technologies = [
-  { id: 'html', name: 'HTML5', icon: <DiHtml5 /> },
+  {
+    id: 'html',
+    name: 'HTML5',
+    icon: <DiHtml5 />,
+    description: 'Conhecimento sólido em HTML 5 e semântico',
+  },
   { id: 'css', name: 'CSS3', icon: <DiCss3 /> },
   { id: 'js', name: 'JavaScript', icon: <DiJsBadge /> },
   { id: 'node', name: 'Node.js', icon: <DiNodejsSmall /> },
@@ -28,7 +33,7 @@ const TechnologiesContainer = () => {
             {tech.icon}
             <div className="technology_info">
               <h3>{tech.name}</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>{tech.description}</p>
             </div>
           </div>
         ))}
